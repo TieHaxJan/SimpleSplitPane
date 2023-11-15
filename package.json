@@ -1,6 +1,7 @@
 {
-    "name": "SimpleSplitPane",
+    "name": "simplesplitpane",
     "license": "MIT",
+    "author": "Jan Schulz-Nigmann",
     "version": "0.0.1",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
