@@ -1,0 +1,19 @@
+{
+    "name": "SimpleSplitPane",
+    "license": "MIT",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup index.tsx --format cjs,esm --dts",
+        "lint": "tsc"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.26.2",
+        "@types/react": "^18.2.37",
+        "react": "^18.2.0",
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2"
+    }
+}
